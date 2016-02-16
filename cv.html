@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pedro Ávila</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,500,600,700|Open+Sans:400,500,600,700' rel='stylesheet' type='text/css'>
+    <style>
+      .clear-margin {
+  margin: 0;
+}
+.space-top {
+  margin-top: 10px;
+}
+.space-right {
+  margin-right: 10px;
+}
+.icon-left {
+  margin-right: 5px;
+}
+.icon-right {
+  margin-left: 5px;
+}
+.labels {
+  word-spacing: 5px;
+  line-height: 2;
+}
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+}
+.link-disguise {
+  color: inherit;
+}
+.link-disguise:hover {
+  color: inherit;
+}
+@media (max-width: 992px) {
+  .clear-margin-sm {
+    margin-bottom: 0;
+  }
+}
+body {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #f0f0f0;
+  color: #333333;
+  font-size: 16px;
+}
+.text-bolder {
+  font-weight: bold;
+}
+@media only screen {
+  .container {
+    max-width: 50em;
+  }
+}
+@media (max-width: 480px) {
+  ul {
+    padding-left: 25px;
+  }
+  /*
+        .mobile-title {
+            display: inline-block;
+            margin-left: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            vertical-align: middle;
+        }
+*/
+  .background-details {
+    display: block;
+  }
+  .background-details .icon {
+    max-width: inherit;
+    min-width: inherit;
+    text-align: left;
+  }
+  .background-details .icon,
+  .background-details .info {
+    display: block;
+    padding: 10px 0;
+  }
+  .background-details .title {
+    display: none;
+  }
+  .card-nested {
+    padding: 5px 0;
+  }
+}
+.profile-card {
+  display: table;
+  width: 100%;
+}
+.profile-pic {
+  display: table-cell;
+  vertical-align: top;
+  padding: 1rem 4rem 0 0 ;
+}
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+}
+.contact-details {
+  display: table-cell;
+}
+.contact-details .detail {
+  display: inline-block;
+  line-height: 2;
+  margin-right: 2rem;
+}
+.contact-details .detail .icon {
+  padding-right: 7px;
+  color: #888;
+}
+.contact-details .detail .info {
+  font-size: 0.8em;
+}
+.social-links {
+  line-height: 2.5;
+}
+.social-link {
+  display: block;
+}
+.social-link span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.social-link:hover,
+.social-link:focus {
+  text-decoration: none;
+}
+.social-link .fa {
+  text-align: center;
+  width: 2em;
+}
+.fa-github {
+  color: #454545;
+}
+.fa-github:hover,
+.fa-github:focus {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.fa-twitter {
+  color: #33ccff;
+}
+.fa-twitter:hover,
+.fa-twitter:focus {
+  text-decoration: none;
+  color: #00bfff;
+}
+.fa-rss {
+  color: #f36f24;
+}
+.fa-rss:hover,
+.fa-rss:focus {
+  text-decoration: none;
+  color: #d8560c;
+}
+.fa-linkedin {
+  color: #007bb6;
+}
+.fa-linkedin:hover,
+.fa-linkedin:focus {
+  text-decoration: none;
+  color: #005983;
+}
+.fa-skype {
+  color: #12a5f4;
+}
+.fa-skype:hover,
+.fa-skype:focus {
+  text-decoration: none;
+  color: #0986ca;
+}
+.fa-stack-overflow {
+  color: #8e8e92;
+}
+.fa-stack-overflow:hover,
+.fa-stack-overflow:focus {
+  text-decoration: none;
+  color: #747479;
+}
+.fa-soundcloud {
+  color: #e8822d;
+}
+.fa-soundcloud:hover,
+.fa-soundcloud:focus {
+  text-decoration: none;
+  color: #cc6916;
+}
+.fa-pinterest {
+  color: #bd091f;
+}
+.fa-pinterest:hover,
+.fa-pinterest:focus {
+  text-decoration: none;
+  color: #8c0717;
+}
+.fa-vimeo {
+  color: #17b3e8;
+}
+.fa-vimeo:hover,
+.fa-vimeo:focus {
+  text-decoration: none;
+  color: #128fba;
+}
+.fa-behance {
+  color: #2c98cf;
+}
+.fa-behance:hover,
+.fa-behance:focus {
+  text-decoration: none;
+  color: #2379a5;
+}
+.fa-codepen {
+  color: #1c1c1c;
+}
+.fa-codepen:hover,
+.fa-codepen:focus {
+  text-decoration: none;
+  color: #020202;
+}
+.fa-foursquare {
+  color: #fa4778;
+}
+.fa-foursquare:hover,
+.fa-foursquare:focus {
+  text-decoration: none;
+  color: #f91554;
+}
+.fa-reddit {
+  color: #545454;
+}
+.fa-reddit:hover,
+.fa-reddit:focus {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.fa-spotify {
+  color: #acd200;
+}
+.fa-spotify:hover,
+.fa-spotify:focus {
+  text-decoration: none;
+  color: #829f00;
+}
+.fa-dribbble {
+  color: #ce366f;
+}
+.fa-dribbble:hover,
+.fa-dribbble:focus {
+  text-decoration: none;
+  color: #a82959;
+}
+.fa-facebook {
+  color: #4b6daa;
+}
+.fa-facebook:hover,
+.fa-facebook:focus {
+  text-decoration: none;
+  color: #3b5687;
+}
+.fa-angellist {
+  color: #000000;
+}
+.fa-angellist:hover,
+.fa-angellist:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.fa-bitbucket {
+  color: #205081;
+}
+.fa-bitbucket:hover,
+.fa-bitbucket:focus {
+  text-decoration: none;
+  color: #163758;
+}
+.fa-google-plus {
+  color: #bf2a1d;
+}
+.fa-google-plus:hover,
+.fa-google-plus:focus {
+  text-decoration: none;
+  color: #932016;
+}
+.background-card h4 {
+  font-variant: small-caps;
+  color: #777777;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  line-height: 1.2;
+}
+.background-card h4:not(:first-child) {
+  margin-top: 2em;
+}
+h4 > .fa,
+h4 > .title {
+  display: inline-block;
+  vertical-align: baseline;
+}
+h4 > .fa {
+  width: 4rem;
+}
+.content {
+  line-height: 1.5;
+}
+.card {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 2em 3.5em;
+}
+.card-nested {
+  padding: 1.5rem 0 1.5rem 4.2rem;
+}
+.card-wrapper {
+  padding: 5px;
+}
+.enumeration:not(:last-child):after {
+  content: ", ";
+}
+.enumeration:last-child:after {
+  content: ".";
+}
+@media only screen and (max-width: 768px) {
+  .profile-card {
+    display: block;
+  }
+  .contact-details,
+  .profile-pic {
+    display: block;
+    text-align: center;
+  }
+  .card-nested {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .contact-details .detail {
+    display: block;
+  }
+}
+.card-skills {
+  position: relative;
+}
+.skill-info {
+  margin-left: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .skill {
+    border-left: 9px solid #555555;
+  }
+  .skill.beginner {
+    height: 50%;
+    border-color: #e74c3c;
+  }
+  .skill.intermediate {
+    height: 70%;
+    border-color: #f1c40f;
+  }
+  .skill.advanced {
+    border-color: #5cb85c;
+  }
+  .skill.master {
+    border-color: black;
+  }
+}
+@media (max-width: 768px) {
+  .quote {
+    font-size: inherit;
+  }
+}
+@media print {
+  body {
+    font-size: 10pt;
+  }
+  a[href]:after {
+    content: none !important;
+  }
+  .pagebreak {
+    page-break-before: always;
+  }
+  .background-card h4:not(:first-child) {
+    margin-top: 0 !important;
+  }
+  .card {
+    border: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+  .contact-details .detail .icon {
+    color: #888 !important;
+  }
+  .background-card h4 {
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 1em !important;
+  }
+  h4 > .fa {
+    display: none !important;
+  }
+  .card-nested {
+    padding: .5rem 0 .5rem 0;
+  }
+  .labels {
+    display: inline;
+  }
+  .skill-info {
+    margin-left: 0;
+  }
+  blockquote {
+    font-size: 100%;
+  }
+}
+
+    </style>
+  </head>
+
+  <body itemscope itemtype="http://schema.org/Person">
+    
+    <div class="container">
+      <section class="row">
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="profile-card">
+                <div class="profile-pic">
+                  <img class="media-object img-circle center-block"  data-src="holder.js/100x100"
+                    alt="Pedro Ávila" src="//www.gravatar.com/avatar/7a03e99d887d32c892cc363d7ed91e5e?s=100&amp;r=pg&amp;d=mm" itemprop="image">
+                </div>
+                <div class="contact-details">
+                  <div class="name-and-profession">
+                    <h3 class="text-bolder name" itemprop="name"> Pedro Ávila</h3>
+                    <h5 class="text-muted" itemprop="jobTitle">Solution Architect</h5>
+                  </div>
+
+                    <div class="detail">
+                      <span class="icon">
+                        <i class="fa fa-lg fa-envelope"></i>
+                      </span>
+
+                      <span class="info">
+                        <a href="/cdn-cgi/l/email-protection#f6869392849997809f9a97b6919b979f9ad895999b" class="link-disguise" itemprop="email"><span class="__cf_email__" data-cfemail="a0d0c5c4d2cfc1d6c9ccc1e0c7cdc1c9cc8ec3cfcd">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>
+                      </span>
+                    </div>
+
+                    <div class="detail">
+                      <span class="icon">
+                        <i class="fa fa-lg fa-phone"></i>
+                      </span>
+
+                      <a href="tel://925.297.5538" class="link-disguise info" itemprop="telephone">
+                        925.297.5538
+                      </a>
+                    </div>
+
+                    <div class="detail">
+                      <span class="icon">
+                        <i class="fa fa-lg fa-map-marker"></i>
+                      </span>
+
+                        <span class="info">
+                          New York, NY,
+                          US
+                        </span>
+                    </div>
+
+                </div>
+                
+            </div>
+            <hr>
+
+            <div class="social-links">
+                <a class="social-link" href="github.com/narcan" target="_blank">
+                  <span class="fa fa-github fa-2x"></span> 
+                  <span class="social-link-text">github.com/narcan</span>
+                </a>
+                <a class="social-link" href="@birdular" target="_blank">
+                  <span class="fa fa-twitter fa-2x"></span> 
+                  <span class="social-link-text">@birdular</span>
+                </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="card-wrapper">
+          <div class="card background-card">
+
+            <h4 id="about"> <span class="fa fa-lg fa-user"></span> <span class="title">About</span> </h4>
+            <div class="card-nested" itemprop="description">
+              <p> A technical leader with vision for results-oriented solutions focused on the user. Passion for bringing people, data, and technology to improve social outcomes. </p>
+            </div>
+
+            <h4 id="work-experience"> <span class="fa fa-lg fa-pencil-square-o"></span> <span class="title">Work Experience</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Google Analytics Premium - Sr. Solutions Consultant</strong>,
+                      <a href="google.com" target="_blank">Google</a>
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> Jun 2013 -  Present  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> 2 years 7 months </span> 
+                      </small>
+                    </p>
+                    <p>Enable awesome analytics for our users by architecting custom solutions based on best practices</p>
+                      <ul>
+                          <li> Engaged directly with GA Premium clients to provide Google Analytics implementation guidance </li>
+                          <li> Developed an automated client onboarding process, scaling the team&#x27;s capacity </li>
+                          <li> Developed a mobile app and guidance to train my implementation team in the use of mobile app analytics </li>
+                          <li> Fostered relationships with the sales team by writing and presenting a working-with-sales seminar </li>
+                          <li> Designed and managed the migration of the BigQuery linkage process from Buganizer to Cases </li>
+                          <li> Educated clients by launching a monthly webinar on implementation techniques </li>
+                          <li> Enabled enterprise-level serviceability by creating a bulk entity management tool </li>
+                      </ul>
+                  </div>
+
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Business Analyst</strong>,
+                      Zagat (Google)
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> Sep 2012 -  Jun 2013  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> 9 months </span> 
+                      </small>
+                    </p>
+                    <p>Provide business analysis, insights and data for Zagat&#x27;s CFO</p>
+                      <ul>
+                          <li> Managed the redesign of Zagat&#x27;s Content Management System feature prioritization and product requirements </li>
+                          <li> Designed and Developed cross-functional processes for automating and optimizing corporate sales figures </li>
+                          <li> Reduced sales data collection process time by 95% through process redesign and automation </li>
+                      </ul>
+                  </div>
+
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Sr. Solution Architect for Consulting and Integrations Services</strong>,
+                      <a href="hpe.com" target="_blank">Hewlett Packard</a>
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> May 2005 -  Jun 2011  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> 6 years 1 month </span> 
+                      </small>
+                    </p>
+                    <p>Architect IT process solutions across the world</p>
+                      <ul>
+                          <li> Engaged directly with Project Portfolio Management Center (PPMC) clients to re-engineer their processes and automation </li>
+                          <li> Led data-collection initiatives to build industry best practices </li>
+                          <li> Developed sales collateral and project architecture proposals to help close deals </li>
+                          <li> Managed teams of technical consultants from many backgrounds and cultures in English, Portuguese and Spanish </li>
+                          <li> Led classroom trainings for clients and partners in different languages across various technical levels </li>
+                      </ul>
+                  </div>
+
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong></strong>,
+                      <a href="http://www.borland.com/en-GB/Silk-Portfolio" target="_blank">Segue Software (Borland/Micro Focus)</a>
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> Sep 2005 -  May 2005  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> -3 month </span> 
+                      </small>
+                    </p>
+                    <p>Break my client&#x27;s web applications to expose flaws in their architecture</p>
+                      <ul>
+                          <li> Designed and implemented performance tests for web applications </li>
+                          <li> Managed different client architectures to properly automate tests </li>
+                          <li> Monitored and interpreted test results to formulate causal analysis reports </li>
+                      </ul>
+                  </div>
+
+                </li>
+            </ul>
+
+            <h4 id="skills"> <span class="fa fa-lg fa-code"></span> <span class="title">Skills</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested skill master">
+                  <strong>Google Analytics (master):</strong> 
+                   <span class="enumeration">collection strategy</span>  <span class="enumeration">analysis</span>  <span class="enumeration">ecommerce</span>  <span class="enumeration">BigQuery</span>  <span class="enumeration">API</span>  <span class="enumeration">Apps Script</span> 
+              </li>
+                <li class="card-nested skill advanced">
+                  <strong>Public Speaking &amp; Presentation (advanced):</strong> 
+                   <span class="enumeration">public speaking</span>  <span class="enumeration">presentation</span>  <span class="enumeration">facilitation</span> 
+              </li>
+                <li class="card-nested skill advanced">
+                  <strong>Web Development (advanced):</strong> 
+                   <span class="enumeration">javascript</span>  <span class="enumeration">html</span>  <span class="enumeration">css</span> 
+              </li>
+                <li class="card-nested skill advanced">
+                  <strong>Data Analysis (advanced):</strong> 
+                   <span class="enumeration">R</span>  <span class="enumeration">SQL</span>  <span class="enumeration">Python</span> 
+              </li>
+                <li class="card-nested skill initiate">
+                  <strong>Android (initiate):</strong> 
+                   <span class="enumeration">Java</span> 
+              </li>
+            </ul>
+  
+            <h4 id="education"><span class="fa fa-lg fa-mortar-board"></span> <span class="title">Education</span></h4>
+            
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Applied Quantitative Research, MA</strong>,&nbsp;
+                      Columbia University
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        Sep 2010 -  May 2012 
+                      </small>
+                    </p>
+                    <i>4.0</i>
+                    <div class="space-top labels">
+                       <span class="label label-keyword">Data Mining, Machine Learning and Pattern Recognition (4240)</span>  <span class="label label-keyword">Regression Models &amp; Temporal Processes (4016)</span>  <span class="label label-keyword">Data Analysis (4015)</span>  <span class="label label-keyword">Micro &amp; Macroeconomic Analysis (5213 &amp; 5211)</span>  <span class="label label-keyword">Quantitative Methodology &amp; Theory (4010)</span>  <span class="label label-keyword">Geographic Information Systems and Spatial Analysis (4070)</span>  <span class="label label-keyword">Political Economy (4370)</span>  <span class="label label-keyword">Media &amp; Economic Development (6046)</span> 
+                    </div>
+                  </div>
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Computer Science, BS</strong>,&nbsp;
+                      California Polytechnic State University
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        Sep 1999 -  Jun 2004 
+                      </small>
+                    </p>
+                    <i></i>
+                    <div class="space-top labels">
+                      
+                    </div>
+                  </div>
+                </li>
+            </ul>
+
+            <h4 id="awards"><span class="fa fa-lg fa-trophy"></span> <span class="title">Awards</span></h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm" itemprop="award">
+                      <strong>Winner of Data Journalism Bicoastal Datafest Hackathon</strong>,&nbsp;
+                      Sunlight Foundation
+                    </p>
+                    <p class="text-muted">
+                      <small> Awarded on: Nov 2013 </small>
+                    </p>
+                    <p> Built an application that uses Benford numbers to direct journalists efforts by identifying likely areas of accounting fraud at local levels of government </p>
+                  </div>
+                </li>
+            </ul>
+
+            <h4 id="volunteer-work"><span class="fa fa-lg fa-child"></span> <span class="title">Volunteer Work</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Instructor</strong>,&nbsp;
+                      Capoeira Brasil
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        May 2014 -  Present 
+                      </small>
+                    </p>
+                    <p>Lead classes in capoeira technique, conditioning, culture and etiquette, maintaining a fun and safe environment</p>
+                    <ul>
+                    </ul>
+                  </div>
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Instructor</strong>,&nbsp;
+                      New York Sailing School
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        Jun 2011 -  Present 
+                      </small>
+                    </p>
+                    <p>Instructed students of various age groups in sailing theory and safety techniques</p>
+                    <ul>
+                    </ul>
+                  </div>
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Emergency medical technician</strong>,&nbsp;
+                      Municipal Hospital &amp; SAMU
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        Jun 2003 -  Jan 2004 
+                      </small>
+                    </p>
+                    <p>Admitted patients and assisted physicians</p>
+                    <ul>
+                        <li> Performed examinations on a semi-rural population, at times assisting physicians in minor surgeries </li>
+                        <li> Administered pre-hospital care onboard ambulances in an urban environment, including advanced life support during aerial transports </li>
+                    </ul>
+                  </div>
+                </li>
+            </ul>
+
+            <h4  id="publications"><span class="fa fa-lg fa-book"></span> <span class="title">Publications</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>
+                         <a href="http://academiccommons.columbia.edu/item/ac:153797"  target="_blank">On the Evaluation of Conditional Cash Transfer Programs</a> 
+                      </strong>,&nbsp;
+                      Columbia University
+                    </p>
+                    <p class="text-muted">
+                      <small> Published on: May 19, 2012 </small>
+                    </p>
+                    <p class="clear-margin">Masters thesis research of the measurement methods used in assessing welfare programs in Latin America</p>
+                  </div>
+                  
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>
+                         <a href="https://docs.google.com/presentation/d/1yxeoZM-r4ZSFm5CgMbucknuHfLiCh4wBlMHbO-jiXSM/"  target="_blank">PPMC Value</a> 
+                      </strong>,&nbsp;
+                      Hewlett Packard Services Summit - Oslo, Norway
+                    </p>
+                    <p class="text-muted">
+                      <small> Published on: Oct 21, 2009 </small>
+                    </p>
+                    <p class="clear-margin">Presentation quantifying the value of implementing Hewlett Packard’s Project and Portfolio Management Center</p>
+                  </div>
+                  
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>
+                         <a href="https://docs.google.com/document/d/1oIANO8ANrCDImm_XP49s77zn1-STamSmE823WfWmUWc/edit"  target="_blank">Scoping PPM</a> 
+                      </strong>,&nbsp;
+                      Hewlett Packard Consulting Briefcase
+                    </p>
+                    <p class="text-muted">
+                      <small> Published on: Jan 08, 2009 </small>
+                    </p>
+                    <p class="clear-margin">HP Knowledge Brief to provide an understanding of how to scope Project and Portfolio Management Center projects</p>
+                  </div>
+                  
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>
+                         <a href="https://docs.google.com/presentation/d/1QM9P8270-eRj5fRKHXzhl9h40tVmEADQuceqYz-M6uY"  target="_blank">Thinking PPM</a> 
+                      </strong>,&nbsp;
+                      Hewlett Packard Services Summit - Prague, Czech Republic
+                    </p>
+                    <p class="text-muted">
+                      <small> Published on: Jun 15, 2008 </small>
+                    </p>
+                    <p class="clear-margin">Introduction to more effective architecture and design in Project and Portfolio Management Center</p>
+                  </div>
+                  
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>
+                         <a href="https://docs.google.com/document/d/14GOmNNFIRRqyWjVC2t4Ak2yx4AT2ibQMgiDtsafgkKk"  target="_blank">qpeN™ ASCII Cryptosystem</a> 
+                      </strong>,&nbsp;
+                      California Polytechnic State University
+                    </p>
+                    <p class="text-muted">
+                      <small> Published on: Jun 16, 2004 </small>
+                    </p>
+                    <p class="clear-margin">An introductory example of RSA cryptography using an implementation based on Java elements</p>
+                  </div>
+                  
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>
+                         <a href="https://docs.google.com/document/d/12lnqlU0O-QDerTJOmC8K83DTgBBgU37DkVtMNelIxiA/edit?usp=sharing"  target="_blank">Napster, KaZaA and the Code</a> 
+                      </strong>,&nbsp;
+                      California Polytechnic State University
+                    </p>
+                    <p class="text-muted">
+                      <small> Published on: Mar 22, 2002 </small>
+                    </p>
+                    <p class="clear-margin">A comparative analysis of the Software Engineering Code of Ethics in the context of file transfer utilities</p>
+                  </div>
+                  
+                </li>
+            </ul>
+
+            <h4 id="interests"> <span class="fa fa-lg fa-heart"></span> <span class="title">Interests</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <p>
+                    <strong>Outdoors</strong>
+                  </p>
+
+                  <div class="space-top labels">
+                      <span class="label label-keyword">Sailing</span>
+                      <span class="label label-keyword">Surfing</span>
+                      <span class="label label-keyword">Hiking</span>
+                      <span class="label label-keyword">Swim, Bike, Run</span>
+                  </div>
+                </li>
+                <li class="card-nested">
+                  <p>
+                    <strong>Martial Arts</strong>
+                  </p>
+
+                  <div class="space-top labels">
+                      <span class="label label-keyword">Capoeira</span>
+                  </div>
+                </li>
+                <li class="card-nested">
+                  <p>
+                    <strong>Writing</strong>
+                  </p>
+
+                  <div class="space-top labels">
+                      <span class="label label-keyword">short stories</span>
+                      <span class="label label-keyword">poetry</span>
+                  </div>
+                </li>
+            </ul>
+
+            <h4 id="references"><span class="fa fa-lg fa-thumbs-up"></span> <span class="title">References</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <p>
+                    <strong>Michael Hansen - Principal IT Systems Engineer at Pacific Gas and Electric Company</strong>
+                  </p>
+                  <blockquote class="quote">
+                    <p class="clear-margin">From the time I recruited him, I have been and continue to be impressed with Pedro. He possesses the rare combination of excellent technical skills and even better people skills. He is hard working, considerate of others, and extremely honest. I would feel confident using Pedro’s services in any field that he decides to peruse.</p>
+                  </blockquote>
+                </li>
+                <li class="card-nested">
+                  <p>
+                    <strong>Mathias Nöbauer - Sales Manager for Cloud &amp; Enterprise at Microsoft</strong>
+                  </p>
+                  <blockquote class="quote">
+                    <p class="clear-margin">Pedro is a great colleague to work with! He is adaptive, customer-oriented and has a lot of practical experience.</p>
+                  </blockquote>
+                </li>
+                <li class="card-nested">
+                  <p>
+                    <strong>Brian McQuillan - Senior Product Manager at ServiceNow – The Enterprise Cloud Company</strong>
+                  </p>
+                  <blockquote class="quote">
+                    <p class="clear-margin">Pedro is a pleasure to work with. He never shirks a challenge and doesn&#x27;t complain when the going gets tough. His professional &#x27;can do&#x27; attitude has helped enusure that the projects he worked on were successes both for the company and the customer. I highly recommend him.</p>
+                  </blockquote>
+                </li>
+                <li class="card-nested">
+                  <p>
+                    <strong> James Nelson - Sr. Project Manager at Nevada System of Higher Education</strong>
+                  </p>
+                  <blockquote class="quote">
+                    <p class="clear-margin">Pedro was extremely helpful on a very short time-framed project I managed. In a few days he was able to clarify and resolve issues that had not been resolved by his peers. He is very approachable and knowledgable in his field. I would work with him any day and hire him if I owned an IT company....or any company for that matter.</p>
+                  </blockquote>
+                </li>
+                <li class="card-nested">
+                  <p>
+                    <strong>Bart van Slobbe - Head of Digital and Media PSA Peugeot, Citroën and DS Benelux</strong>
+                  </p>
+                  <blockquote class="quote">
+                    <p class="clear-margin">Pedro has contributed many insightful and helpful articles to the travel guides of WritingTravellers.com. He is attentive to detail and takes his audience into consideration, writing travel articles for their benefit, by finding new travel experiences and rejuvenating the hot spots with new angles and perspectives. I&#x27;m glad to have his contributions and recommend him as a travel writer to anyone looking for depth, meaning and purpose from their writers.</p>
+                  </blockquote>
+                </li>
+            </ul>
+
+            <h4 id="languages"><span class="fa fa-lg fa-language"></span> <span class="title">Languages</span> </h4>
+            <p class="card-nested">
+                <span class="enumeration">
+                  <strong>English</strong> (Native)
+                </span>
+                <span class="enumeration">
+                  <strong>Portuguese</strong> (Native)
+                </span>
+                <span class="enumeration">
+                  <strong>Spanish</strong> (Fluent)
+                </span>
+            </ul>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    
+  <script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>

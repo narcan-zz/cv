@@ -5,8 +5,8 @@
     "picture": "",
     "email": "pedroavila@gmail.com",
     "phone": "925.297.5538",
-    "website": "narcan.github.io",
-    "summary": "I have a talent for architecting solutions to complex problems across systems & disciplines. I enjoy using data, technology and smart people to improve the world.",
+    "website": "",
+    "summary": "A technical leader with vision for results-oriented solutions focused on the user. Passion for bringing people, data, and technology to improve social outcomes.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -18,7 +18,7 @@
       {
         "network": "Github",
         "username": "narcan",
-        "url": "narcan"
+        "url": "github.com/narcan"
       },
       {
         "network": "Twitter",
@@ -30,61 +30,59 @@
   "work": [
     {
       "company": "Google",
-      "position": "Sr. Solutions Consultant for Google Analytics Premium",
+      "position": "Google Analytics Premium - Sr. Solutions Consultant", 
       "website": "google.com",
-      "startDate": "June 2013",
-      "endDate": "",
-      "summary": "stuff",
+      "startDate": "2013-06-24",
+      "summary": "Enable awesome analytics for our users by architecting custom solutions based on best practices",
       "highlights": [
-        "Engaged directly with clients to provide implementation guidance for their Google Analytics Premium projects",
-        "Managed the migration of the BigQuery linkage process from Buganizer to Cases",
-        "Developed a guide and corresponding training app used to train the team and clients in the use of mobile app analytics",
-        "Built and co-presented a working-with-presales seminar using surveys to focus on the right material",
-        "Improved the team’s ability to engage with educated clients by organizing monthly webinars from the IS team in a cross-functional effort with sales",
-        "Increased guide process efficiency by 40% through cross-functional process changes and automation",
-        "Increase the supportability of GA Premium through tool creation and by engaging the product team in an effort to generate insight cards based on machine learning algorithms trained on the support team’s knowledge, amongst other things.",
-        "stuff"
+        "Engaged directly with GA Premium clients to provide Google Analytics implementation guidance",
+        "Developed an automated client onboarding process, scaling the team's capacity",
+        "Developed a mobile app and guidance to train my implementation team in the use of mobile app analytics",
+        "Fostered relationships with the sales team by writing and presenting a working-with-sales seminar",
+        "Designed and managed the migration of the BigQuery linkage process from Buganizer to Cases",
+        "Educated clients by launching a monthly webinar on implementation techniques",
+        "Enabled enterprise-level serviceability by creating a bulk entity management tool"
       ]
     },
     {
       "company": "Zagat (Google)",
       "position": "Business Analyst",
       "website": "",
-      "startDate": "September 2012",
-      "endDate": "June 2013",
-      "summary": "",
+      "startDate": "2012-09-10",
+      "endDate": "2013-06-23",
+      "summary": "Provide business analysis, insights and data for Zagat's CFO",
       "highlights": [
-        "Managed Requirements for Content Management System Redesign including feature prioritization and product design.",
-        "Designed and Developed cross-functional processes for automating and optimizing corporate sales figures (leading to a marked decrease in omitted or misreported deals.",
-        "Reduced sales data collection process by 95% through process redesign and automation."
+        "Managed the redesign of Zagat's Content Management System feature prioritization and product requirements",
+        "Designed and Developed cross-functional processes for automating and optimizing corporate sales figures",
+        "Reduced sales data collection process time by 95% through process redesign and automation"
       ]
     },
     {
       "company": "Hewlett Packard",
       "position": "Sr. Solution Architect for Consulting and Integrations Services",
       "website": "hpe.com",
-      "startDate": "May 2005",
-      "endDate": "June 2011",
-      "summary": "stuff",
+      "startDate": "2005-05-08",
+      "endDate": "2011-06-20",
+      "summary": "Architect IT process solutions across the world",
       "highlights": [
-        "Planned and executed IT and process re-engineering projects for multi-million dollar software services accounts across Europe, Latin America, the Middle East and the US, working closely with sales, marketing and product management.",
-        "Advised clients in various industries, leading efforts to optimize business processes through simplification, automation and clear metric monitoring.",
-        "Led data-collection initiatives to document and analyze process effectiveness, deploying customized software affecting from dozens to thousands of users.",
-        "Developed sales and project architecture proposals and managed teams of technical consultants from many backgrounds and cultures in English, Portuguese and Spanish.",
-        "Led classroom trainings for clients and partners at various technical levels and different languages."
+        "Engaged directly with Project Portfolio Management Center (PPMC) clients to re-engineer their processes and automation",
+        "Led data-collection initiatives to build industry best practices",
+        "Developed sales collateral and project architecture proposals to help close deals",
+        "Managed teams of technical consultants from many backgrounds and cultures in English, Portuguese and Spanish",
+        "Led classroom trainings for clients and partners in different languages across various technical levels"
       ]
     },
     {
       "company": "Segue Software (Borland/Micro Focus)",
       "position": "",
       "website": "http://www.borland.com/en-GB/Silk-Portfolio",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "startDate": "2005-09-05",
+      "endDate": "2005-05-07",
+      "summary": "Break my client's web applications to expose flaws in their architecture",
       "highlights": [
-        "Designed and implemented test scripts for web applications in performance optimization projects.",
-        "Managed different client architectures to properly automate tests.",
-        "Monitored and interpreted test results to formulate causal analysis reports."
+        "Designed and implemented performance tests for web applications",
+        "Managed different client architectures to properly automate tests",
+        "Monitored and interpreted test results to formulate causal analysis reports"
       ]
     }
   ],
@@ -93,30 +91,28 @@
       "organization": "Capoeira Brasil",
       "position": "Instructor",
       "website": "capoeiratrainingcenter.com",
-      "startDate": "May 2014",
-      "endDate": "",
-      "summary": "Lead classes in capoeira technique, conditioning, culture and etiquette, maintaining a fun and safe environment.",
+      "startDate": "2014-05-16",
+      "summary": "Lead classes in capoeira technique, conditioning, culture and etiquette, maintaining a fun and safe environment",
       "highlights": []
     },
     {
       "organization": "New York Sailing School",
       "position": "Instructor",
       "website": "nyss.com",
-      "startDate": "June 2011",
-      "endDate": "",
-      "summary": "Instructed students of various age groups in sailing theory and safety techniques.",
+      "startDate": "2011-06-09",
+      "summary": "Instructed students of various age groups in sailing theory and safety techniques",
       "highlights": []
     },
     {
       "organization": "Municipal Hospital & SAMU",
       "position": "Emergency medical technician",
       "website": "",
-      "startDate": "June 2003",
-      "endDate": "January 2004",
+      "startDate": "2003-06-23",
+      "endDate": "2004-01-28",
       "summary": "Admitted patients and assisted physicians",
       "highlights": [
-        "Performed examinations on a semi-rural population, at times assisting physicians in minor surgeries.",
-        "Administered pre-hospital care onboard ambulances in an urban environment, including advanced life support during aerial transports."
+        "Performed examinations on a semi-rural population, at times assisting physicians in minor surgeries",
+        "Administered pre-hospital care onboard ambulances in an urban environment, including advanced life support during aerial transports"
       ]
     }
   ],
@@ -125,8 +121,8 @@
       "institution": "Columbia University",
       "area": "Applied Quantitative Research",
       "studyType": "MA",
-      "startDate": "September 2010",
-      "endDate": "May 2012",
+      "startDate": "2010-09-15",
+      "endDate": "2012-05-24",
       "gpa": "4.0",
       "courses": [
         "Data Mining, Machine Learning and Pattern Recognition (4240)",
@@ -143,8 +139,8 @@
       "institution": "California Polytechnic State University",
       "area": "Computer Science",
       "studyType": "BS",
-      "startDate": "September 1999",
-      "endDate": "June 2004",
+      "startDate": "1999-09-10",
+      "endDate": "2004-06-12",
       "gpa": "",
       "courses": []
     }
@@ -152,53 +148,53 @@
   "awards": [
     {
       "title": "Winner of Data Journalism Bicoastal Datafest Hackathon",
-      "date": "November 2013",
+      "date": "2013-11-11",
       "awarder": "Sunlight Foundation",
-      "summary": "There is no spoon."
+      "summary": "Built an application that uses Benford numbers to direct journalists efforts by identifying likely areas of accounting fraud at local levels of government"
     }
   ],
   "publications": [
     {
       "name": "On the Evaluation of Conditional Cash Transfer Programs",
       "publisher": "Columbia University",
-      "releaseDate": "May 24, 2012",
+      "releaseDate": "2012-05-19",
       "website": "http://academiccommons.columbia.edu/item/ac:153797",
-      "summary": "Masters thesis research of the measurement methods used in assessing welfare programs in Latin America."
+      "summary": "Masters thesis research of the measurement methods used in assessing welfare programs in Latin America"
     },
     {
       "name": "PPMC Value",
       "publisher": "Hewlett Packard Services Summit - Oslo, Norway",
-      "releaseDate": "October 21, 2009",
+      "releaseDate": "2009-10-21",
       "website": "https://docs.google.com/presentation/d/1yxeoZM-r4ZSFm5CgMbucknuHfLiCh4wBlMHbO-jiXSM/",
-      "summary": "Presentation quantifying the value of implementing Hewlett Packard’s Project and Portfolio Management Center."
+      "summary": "Presentation quantifying the value of implementing Hewlett Packard’s Project and Portfolio Management Center"
     },
     {
       "name": "Scoping PPM",
       "publisher": "Hewlett Packard Consulting Briefcase",
-      "releaseDate": "January 8, 2009",
+      "releaseDate": "2009-01-08",
       "website": "https://docs.google.com/document/d/1oIANO8ANrCDImm_XP49s77zn1-STamSmE823WfWmUWc/edit",
-      "summary": "HP Knowledge Brief to provide an understanding of how to scope Project and Portfolio Management Center projects."
+      "summary": "HP Knowledge Brief to provide an understanding of how to scope Project and Portfolio Management Center projects"
     },
     {
       "name": "Thinking PPM",
       "publisher": "Hewlett Packard Services Summit - Prague, Czech Republic",
-      "releaseDate": "June 15, 2008",
+      "releaseDate": "2008-06-15",
       "website": "https://docs.google.com/presentation/d/1QM9P8270-eRj5fRKHXzhl9h40tVmEADQuceqYz-M6uY",
-      "summary": "Introduction to more effective architecture and design in Project and Portfolio Management Center."
+      "summary": "Introduction to more effective architecture and design in Project and Portfolio Management Center"
     },
     {
       "name": "qpeN™ ASCII Cryptosystem",
       "publisher": "California Polytechnic State University",
-      "releaseDate": "June 16, 2004",
+      "releaseDate": "2004-06-16",
       "website": "https://docs.google.com/document/d/14GOmNNFIRRqyWjVC2t4Ak2yx4AT2ibQMgiDtsafgkKk",
-      "summary": "An introductory example of RSA cryptography using an implementation based on Java elements."
+      "summary": "An introductory example of RSA cryptography using an implementation based on Java elements"
     },
     {
       "name": "Napster, KaZaA and the Code",
       "publisher": "California Polytechnic State University",
-      "releaseDate": "March 22, 2002",
+      "releaseDate": "2002-03-22",
       "website": "https://docs.google.com/document/d/12lnqlU0O-QDerTJOmC8K83DTgBBgU37DkVtMNelIxiA/edit?usp=sharing",
-      "summary": "A comparative analysis of the Software Engineering Code of Ethics in the context of file transfer utilities."
+      "summary": "A comparative analysis of the Software Engineering Code of Ethics in the context of file transfer utilities"
     }
   ],
   "skills": [
@@ -289,28 +285,24 @@
   ],
   "references": [
     {
-      "name": "Bart van Slobbe - Head of Digital and Media PSA Peugeot, Citroën and DS Benelux",
-      "reference": "Pedro has contributed many insightful and helpful articles to the travel guides of WritingTravellers.com. He is attentive to detail and takes his audience into consideration, writing travel articles for their benefit, by finding new travel experiences and rejuvenating the hot spots with new angles and perspectives. I'm glad to have his contributions and recommend him as a travel writer to anyone looking for depth, meaning and purpose from their writers. Furthermore I hope he will keep on writing on the WritingTravellers guide books!"
+      "name": "Michael Hansen - Principal IT Systems Engineer at Pacific Gas and Electric Company",
+      "reference": "From the time I recruited him, I have been and continue to be impressed with Pedro. He possesses the rare combination of excellent technical skills and even better people skills. He is hard working, considerate of others, and extremely honest. I would feel confident using Pedro’s services in any field that he decides to peruse."
     },
     {
       "name": "Mathias Nöbauer - Sales Manager for Cloud & Enterprise at Microsoft",
-      "reference": "Pedro is a great colleague to work with! He is adaptive, customer-oriented and has a lot of practical experience in the area of HP PPM (Project- and Portfolio Management)."
-    },
-    {
-      "name": "Wahab Hamiani - Senior Global Program Manager",
-      "reference": "Pedro is a very professional, knowledgeable and personable team member. He added value to all the projects that I managed by working closely with the client and the other team members and by being a leader."
+      "reference": "Pedro is a great colleague to work with! He is adaptive, customer-oriented and has a lot of practical experience."
     },
     {
       "name": "Brian McQuillan - Senior Product Manager at ServiceNow – The Enterprise Cloud Company",
-      "reference": "Pedro was a pleasure to work with. He never shirks a challenge and doesn't complain when the going gets tough. His professional 'can do' attitude has helped enusure that the projects he worked on were successes both for the company and the customer. I highly recommend him."
+      "reference": "Pedro is a pleasure to work with. He never shirks a challenge and doesn't complain when the going gets tough. His professional 'can do' attitude has helped enusure that the projects he worked on were successes both for the company and the customer. I highly recommend him."
     },
     {
       "name": " James Nelson - Sr. Project Manager at Nevada System of Higher Education",
       "reference": "Pedro was extremely helpful on a very short time-framed project I managed. In a few days he was able to clarify and resolve issues that had not been resolved by his peers. He is very approachable and knowledgable in his field. I would work with him any day and hire him if I owned an IT company....or any company for that matter."
     },
     {
-      "name": "Michael Hansen - Principal IT Systems Engineer at Pacific Gas and Electric Company",
-      "reference": "During my time at Segue Software I had the privilege to recruit Pedro from Cal Poly San Luis Obispo. I was then and continue to be impressed with Pedro. He possesses the rare combination of excellent technical skills and even better people skills. He is hard working, considerate of others, and extremely honest. I would feel confident using Pedro’s services in any field that he decides to peruse."
+      "name": "Bart van Slobbe - Head of Digital and Media PSA Peugeot, Citroën and DS Benelux",
+      "reference": "Pedro has contributed many insightful and helpful articles to the travel guides of WritingTravellers.com. He is attentive to detail and takes his audience into consideration, writing travel articles for their benefit, by finding new travel experiences and rejuvenating the hot spots with new angles and perspectives. I'm glad to have his contributions and recommend him as a travel writer to anyone looking for depth, meaning and purpose from their writers."
     }
   ]
 }

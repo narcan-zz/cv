@@ -2,7 +2,6 @@
   "basics": {
     "name": "Pedro Ávila",
     "label": "Solution Architect",
-    "picture": "",
     "email": "pedroavila@gmail.com",
     "phone": "925.297.5538",
     "website": "",
@@ -76,7 +75,7 @@
       "company": "Segue Software (Borland/Micro Focus)",
       "position": "Performance Test Consultant",
       "website": "http://www.borland.com/en-GB/Silk-Portfolio",
-      "startDate": "2005-09-05",
+      "startDate": "2004-09-05",
       "endDate": "2005-05-07",
       "summary": "Break my client's web applications to expose flaws in their architecture",
       "highlights": [

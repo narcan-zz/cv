@@ -2,10 +2,11 @@
   "basics": {
     "name": "Pedro Ávila",
     "label": "Solution Architect",
+    "picture": "https://s.gravatar.com/avatar/7a03e99d887d32c892cc363d7ed91e5e?s=80",
     "email": "pedroavila@gmail.com",
     "phone": "925.297.5538",
-    "website": "",
-    "summary": "A technical leader with vision for results-oriented solutions focused on the user. Passion for bringing people, data, and technology to improve social outcomes.",
+    "website": "//about.me/pedroavila",
+    "summary": "A leading strategist of analytics solutions. A leader who speaks the language of executives, marketers, developers, agencies, and IT, bringing together people, data, and technology to improve social outcomes.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -46,7 +47,7 @@
     {
       "company": "Zagat (Google)",
       "position": "Business Analyst",
-      "website": "",
+      "website": "zagat.com",
       "startDate": "2012-09-10",
       "endDate": "2013-06-23",
       "summary": "Provide business analysis, insights and data for Zagat's CFO",
@@ -74,7 +75,7 @@
     {
       "company": "Segue Software (Borland/Micro Focus)",
       "position": "Performance Test Consultant",
-      "website": "http://www.borland.com/en-GB/Silk-Portfolio",
+      "website": "borland.com/en-GB/Silk-Portfolio",
       "startDate": "2004-09-05",
       "endDate": "2005-05-07",
       "summary": "Break my client's web applications to expose flaws in their architecture",
@@ -105,7 +106,7 @@
     {
       "organization": "Municipal Hospital & SAMU",
       "position": "Emergency medical technician",
-      "website": "",
+      "website": "samu192.com.br/",
       "startDate": "2003-06-23",
       "endDate": "2004-01-28",
       "summary": "Admitted patients and assisted physicians",
@@ -124,14 +125,14 @@
       "endDate": "2012-05-24",
       "gpa": "4.0",
       "courses": [
-        "Data Mining, Machine Learning and Pattern Recognition (4240)",
-        "Regression Models & Temporal Processes (4016)",
-        "Data Analysis (4015)",
-        "Micro & Macroeconomic Analysis (5213 & 5211)",
-        "Quantitative Methodology & Theory (4010)",
-        "Geographic Information Systems and Spatial Analysis (4070)",
-        "Political Economy (4370)",
-        "Media & Economic Development (6046)"
+        "Data Mining, Machine Learning and Pattern Recognition",
+        "Regression Models & Temporal Processes",
+        "Data Analysis",
+        "Spatial Analysis",
+        "Economic Analysis",
+        "Political Economy",
+        "Media & Economic Development",
+        "Quantitative Theory & Methodology"
       ]
     },
     {
@@ -141,7 +142,12 @@
       "startDate": "1999-09-10",
       "endDate": "2004-06-12",
       "gpa": "",
-      "courses": []
+      "courses": [
+        "Cryptography",
+        "Project Management",
+        "Software Engineering",
+        "Ethics"
+      ]
     }
   ],
   "awards": [
@@ -153,6 +159,13 @@
     }
   ],
   "publications": [
+    {
+      "name": "Bulk Analytics Configurations with Google Sheets",
+      "publisher": "Online Behavior",
+      "releaseDate": "2015-11-10",
+      "website": "http://online-behavior.com/analytics/bulk-configuration",
+      "summary": "Bulk management of Google Analytics entities in Google Sheets"
+    },
     {
       "name": "On the Evaluation of Conditional Cash Transfer Programs",
       "publisher": "Columbia University",

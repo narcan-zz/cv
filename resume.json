@@ -6,7 +6,7 @@
     "email": "pedroavila@gmail.com",
     "phone": "925.297.5538",
     "website": "//about.me/pedroavila",
-    "summary": "A leading strategist of analytics solutions. A leader who speaks the language of executives, marketers, developers, agencies, and IT, bringing together people, data, and technology to improve social outcomes.",
+    "summary": "A techincal leader who speaks the language of executives, marketers, and developers, bringing together people, data, and technology to improve social outcomes.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -35,13 +35,23 @@
       "startDate": "2013-06-24",
       "summary": "Enable awesome analytics for our users by architecting custom solutions based on best practices",
       "highlights": [
-        "Engaged directly with GA Premium clients to provide Google Analytics implementation guidance",
-        "Developed an automated client onboarding process, scaling the team's capacity",
-        "Developed a mobile app and guidance to train my implementation team in the use of mobile app analytics",
-        "Fostered relationships with the sales team by writing and presenting a working-with-sales seminar",
-        "Designed and managed the migration of the BigQuery linkage process from Buganizer to Cases",
-        "Educated clients by launching a monthly webinar on implementation techniques",
-        "Enabled enterprise-level serviceability by creating a bulk entity management tool"
+        "Engaged directly with top advertising clients, providing guidance and custom solutions for the 360 analytics suite",
+        "Developed automation for the client onboarding process to scale the team's capacity",
+        "Enabled enterprise-level serviceability by creating a bulk entity management tool",
+        "Introduced a partner-first implementation model to scale the services organization",
+        "Designed and managed the migration of the BigQuery linkage process from Engieering to Support",
+        "Developed example mobile app and training material to educate the implementation team in the use of mobile app analytics",
+        "Educated clients by launching a monthly webinar on implementation techniques"
+      ]
+    },
+    {
+      "company": "Fashion Institute of Technology",
+      "position": "Staff Lecturer", 
+      "website": "fitnyc.edu",
+      "startDate": "2016-03-17",
+      "summary": "Teach ecommerce analytics with a focus on the fashion industry",
+      "highlights": [
+        "Created and presented content for lectures and lab courses on ecommerce analytics"
       ]
     },
     {

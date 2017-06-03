@@ -1,8 +1,7 @@
 {
   "basics": {
     "name": "Pedro Ávila",
-    "label": "Solution Architect",
-    "picture": "https://s.gravatar.com/avatar/7a03e99d887d32c892cc363d7ed91e5e?s=80",
+    "picture": "https://s.gravatar.com/avatar/823dfb988d6413e1cff0bd5aadfad46b?s=80",
     "email": "pedroavila@gmail.com",
     "phone": "925.297.5538",
     "website": "//about.me/pedroavila",
@@ -24,24 +23,52 @@
         "network": "Twitter",
         "username": "birdular",
         "url": "@birdular"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "pedroavila",
+        "url": "//www.linkedin.com/in/pavila/"
+      },
+      {
+        "network": "about.me",
+        "username": "pedroavila",
+        "url": "//vizualize.me/pedroavila"
+      },
+      {
+        "network": "vizualize.me",
+        "username": "pedroavila",
+        "url": "//vizualize.me/pedroavila"
       }
     ]
   },
   "work": [
     {
       "company": "Google",
-      "position": "Sr. Solutions Consultant for Google Analytics Premium", 
+      "position": "Sr. Solutions Consultant for the Google Analytics 360 Suite", 
       "website": "google.com",
       "startDate": "2013-06-24",
-      "summary": "Enable awesome analytics for our users by architecting custom solutions based on best practices",
+      "summary": "Enable awesome analytics, measurements, and insights",
       "highlights": [
-        "Engaged directly with top advertising clients, providing guidance and custom solutions for the 360 analytics suite",
-        "Developed automation for the client onboarding process to scale the team's capacity",
-        "Enabled enterprise-level serviceability by creating a bulk entity management tool",
-        "Introduced a partner-first implementation model to scale the services organization",
-        "Designed and managed the migration of the BigQuery linkage process from Engieering to Support",
-        "Developed example mobile app and training material to educate the implementation team in the use of mobile app analytics",
-        "Educated clients by launching a monthly webinar on implementation techniques"
+        "Engaged directly with Google's top advertising clients, protecting and growing ad spend by providing insight, guidance, and custom measurement solutions",
+        "Led the effort to create and populate the MSC Solution Center in order to get less dynamic guidance to clients more quickly",
+        "Designed, managed, and built Blueprint 360, an external Google web application for partners to scale the construction and delivery of implementation guidance to Google's measurement suite clients",
+        "Increased the supportability of Google Analytics by creating, socializing, and maintaining the GA Management Magic Google Sheets add-on, a tool to manage bulk items for enterprise clients and deploy best practice content",
+        "Reduced implementation engagements to 10 weeks through a cross-functional process to collect and communicate client requirements between services and sales in order to minimize the friction when closing projects",
+        "Lowered the time to generate a guide by 40% through cross-functional process changes and AppScript automations",
+        "Designed and implemented data sources and reports to promote the Visualize tool (Data Studio) for beta clients",
+        "Reduce support tickets by 8% by educating clients through monthly webinars on implementation-related topics",
+        "Led the g2g Capoeira program at Google NYC, teaching the Afro-Brazilian martial art to classes of up to 20 students"
+      ]
+    },
+    {
+      "company": "Columbia University in the City of New York",
+      "position": "Faculty Lecturer", 
+      "website": "columbia.edu",
+      "startDate": "2017-05-24",
+      "summary": "Advise graduate students in the Applied Analytics program on their capstone project",
+      "highlights": [
+        "Led the inaugural capstone class for the Applied Analytics graduate course on building data-savvy organizations",
+        "Advised students on analytical methods as they created data models to answer real problems from the insurance industry"
       ]
     },
     {
@@ -49,9 +76,9 @@
       "position": "Staff Lecturer", 
       "website": "fitnyc.edu",
       "startDate": "2016-03-17",
-      "summary": "Teach ecommerce analytics with a focus on the fashion industry",
+      "summary": "Teach ecommerce and social analytics with a focus on the fashion industry",
       "highlights": [
-        "Created and presented content for lectures and lab courses on ecommerce analytics"
+        "Develop and teach courses on ecommerce and social analytics, including theory and practice"
       ]
     },
     {
@@ -62,9 +89,9 @@
       "endDate": "2013-06-23",
       "summary": "Provide business analysis, insights and data for Zagat's CFO",
       "highlights": [
-        "Managed the redesign of Zagat's Content Management System feature prioritization and product requirements",
-        "Designed and Developed cross-functional processes for automating and optimizing corporate sales figures",
-        "Reduced sales data collection process time by 95% through process redesign and automation"
+        "Created a prototype for a scalable database to house all Zagat Survey Data, including a crawler to discover and format data",
+        "Managed Requirements for Content Management System redesign including feature prioritization and product design",
+        "Decreased misreported or omitted deals from sales by developing a cross-functional process and deploying automation for corporate sales reports, resulting in a data collection process that was 95% more efficient"
       ]
     },
     {
@@ -75,11 +102,10 @@
       "endDate": "2011-06-20",
       "summary": "Architect IT process solutions across the world",
       "highlights": [
-        "Engaged directly with Project Portfolio Management Center (PPMC) clients to re-engineer their processes and automation",
-        "Led data-collection initiatives to build industry best practices",
-        "Developed sales collateral and project architecture proposals to help close deals",
-        "Managed teams of technical consultants from many backgrounds and cultures in English, Portuguese and Spanish",
-        "Led classroom trainings for clients and partners in different languages across various technical levels"
+        "Planned and executed IT process re-engineering projects for multi-million dollar software services accounts across Europe, Latin America, the Middle East and the US, working closely with sales, marketing and product management",
+        "Advised clients across industries, leading efforts to optimize business processes using automation and dashboards",
+        "Developed sales and project architecture proposals and managed teams of technical consultants from many backgrounds and cultures in English, Portuguese and Spanish",
+        "Led classroom trainings for clients and partners at various technical levels and different languages"
       ]
     },
     {
@@ -246,8 +272,10 @@
       "level": "advanced",
       "keywords": [
         "javascript",
+        "angular",
         "html",
-        "css"
+        "css",
+        "material design"
       ]
     },
     {
@@ -264,6 +292,16 @@
         "R",
         "SQL",
         "Python"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "initiate",
+      "keywords": [
+        "R",
+        "Python",
+        "Tensorflow",
+        "Anaconda"
       ]
     }
   ],
@@ -287,8 +325,7 @@
       "keywords": [
         "Sailing",
         "Surfing",
-        "Hiking",
-        "Swim, Bike, Run"
+        "Hiking"
       ]
     },
     {
@@ -300,6 +337,7 @@
     {
       "name": "Writing",
       "keywords": [
+        "technology and political blogging",
         "short stories",
         "poetry"
       ]

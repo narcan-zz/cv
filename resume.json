@@ -44,9 +44,23 @@
   "work": [
     {
       "company": "Google",
+      "position": "Privacy Program Manager", 
+      "website": "google.com",
+      "startDate": "2017-08-01",
+      "summary": "Protect User Data",
+      "highlights": [
+        "Align tools and standards for privacy design across Google products",
+        "Manage privacy programs across product teams, acting as privacy counselor at weekly design review meetings",
+        "Build partnerships across Google Apps product, legal, and compliance teams to foster a culture of privacy within Apps",
+        "Ensure user data privacy in Apps release, with a focus on Calendar, Meet, Chat, Voice, & Jamboard launches",
+      ]
+    },
+    {
+      "company": "Google",
       "position": "Sr. Solutions Consultant for the Google Analytics 360 Suite", 
       "website": "google.com",
       "startDate": "2013-06-24",
+      "endDate": "2017-07-31",
       "summary": "Enable awesome analytics, measurements, and insights",
       "highlights": [
         "Engaged directly with Google's top advertising clients, protecting and growing ad spend by providing insight, guidance, and custom measurement solutions",
